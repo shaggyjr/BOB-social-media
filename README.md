@@ -1,12 +1,14 @@
 # Project Title
 
-This project is a comprehensive full-stack web application that leverages the power of MongoDB, Express.js, and Node.js to provide a robust and scalable solution for database connectivity.
+This project is a comprehensive full-stack web application that leverages the power of MongoDB, Express.js, and Node.js to provide a robust and scalable solution for database connectivity. It uses RESTful API principles to enable communication between the client and server.
 
 ## Backend
 
 The backend of this application is built using Node.js, a powerful JavaScript runtime, along with Express.js, a fast, unopinionated, and minimalist web framework for Node.js. The combination of these technologies allows for efficient handling of HTTP requests and responses.
 
 The application is connected to a MongoDB database, a flexible and scalable NoSQL database that uses JSON-like documents for data storage. The main file in the backend includes methods for GET, PUT, POST, and DELETE operations, enabling the application to perform a full range of CRUD (Create, Read, Update, Delete) operations.
+
+The backend also implements a RESTful API using Node.js and Express.js. This API follows standard HTTP methods and status codes, and it uses a stateless, client-server, cacheable communications protocol.
 
 ## Frontend
 
@@ -17,6 +19,7 @@ The frontend of the application is currently under development. Once completed, 
 - CRUD Operations: The application can perform all CRUD operations, providing a flexible interface for database management.
 - Scalable Backend: Built with Node.js and Express.js, the backend can handle numerous requests efficiently.
 - Flexible Database: MongoDB provides a flexible and scalable solution for database management.
+- RESTful API: The backend implements a RESTful API, allowing for efficient communication between the client and server.
 - Under Development Frontend: The frontend, currently under development, will provide a user-friendly interface for database operations.
 
 ## Tools and Frameworks
@@ -34,3 +37,9 @@ The frontend of the application is currently under development. Upon completion,
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
+
+postman:
+![image](https://github.com/shaggyjr/BOB-social-media/assets/122211785/0045748a-08b4-49bf-b1c9-0a033bedadde)
+![image](https://github.com/shaggyjr/BOB-social-media/assets/122211785/9c68c009-e658-4105-911f-a0bf8e534854)
+
+
